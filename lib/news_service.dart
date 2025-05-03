@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class NewsService {
-  final String apikey = '4a4c1b6e11514576b7613475cd98cda3';
+  final String apikey = '21058caa134f4f99ae8b953abff08866';
 
   /// Map of category → language → search term for each category
   static const Map<String, Map<String, String>> _categoryQueries = {
